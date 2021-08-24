@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <package name="User" extends="struts-default" namespace="/User">
+        <action name="login" class="com.baizhi.action.UserAction" method="login"/>
+    </package>
+
+    <package name="Employee" extends="struts-default" namespace="/Employee">
+        <action name="selectAll" class="com.baizhi.action.EmployeeAction" method="selectAll"/>
+    </package>
+</struts>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ems_pink:war">
+    <output-path>$PROJECT_DIR$/../ems_pink/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ems_pink</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ems_pink.war">
+      <element id="artifact" artifact-name="ems_pink:war exploded" />
+    </root>
+  </artifact>
+</component>

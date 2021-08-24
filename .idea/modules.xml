@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../ajax_day1/ajax_day1.iml" filepath="$PROJECT_DIR$/../ajax_day1/ajax_day1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ajax_day2/ajax_day2.iml" filepath="$PROJECT_DIR$/../ajax_day2/ajax_day2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bootstrap_day1/bootstrap_day1.iml" filepath="$PROJECT_DIR$/../bootstrap_day1/bootstrap_day1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ems_pink/ems_pink.iml" filepath="$PROJECT_DIR$/../ems_pink/ems_pink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ems_pink2/ems_pink2.iml" filepath="$PROJECT_DIR$/../ems_pink2/ems_pink2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ems_springboot/ems_springboot.iml" filepath="$PROJECT_DIR$/../ems_springboot/ems_springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ems_ssm/ems_ssm.iml" filepath="$PROJECT_DIR$/../ems_ssm/ems_ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../github_day1/github_day1.iml" filepath="$PROJECT_DIR$/../github_day1/github_day1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../newIDEA/newIDEA.iml" filepath="$PROJECT_DIR$/../newIDEA/newIDEA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../redis_day1/redis_day1.iml" filepath="$PROJECT_DIR$/../redis_day1/redis_day1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_day1/spring_day1.iml" filepath="$PROJECT_DIR$/../spring_day1/spring_day1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_day3/spring_day3.iml" filepath="$PROJECT_DIR$/../spring_day3/spring_day3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_day5/spring_day5.iml" filepath="$PROJECT_DIR$/../spring_day5/spring_day5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_day6/spring_day6.iml" filepath="$PROJECT_DIR$/../spring_day6/spring_day6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_mybatis/spring_mybatis.iml" filepath="$PROJECT_DIR$/../spring_mybatis/spring_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_ssm.iml" filepath="$PROJECT_DIR$/spring_ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot/springboot.iml" filepath="$PROJECT_DIR$/../springboot/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot_day1/springboot_day1.iml" filepath="$PROJECT_DIR$/../springboot_day1/springboot_day1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot_day2/springboot_day2.iml" filepath="$PROJECT_DIR$/../springboot_day2/springboot_day2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot_day3/springboot_day3.iml" filepath="$PROJECT_DIR$/../springboot_day3/springboot_day3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot_day6/springboot_day6.iml" filepath="$PROJECT_DIR$/../springboot_day6/springboot_day6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springmvc/springmvc.iml" filepath="$PROJECT_DIR$/../springmvc/springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springmvc_day1/springmvc_day1.iml" filepath="$PROJECT_DIR$/../springmvc_day1/springmvc_day1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springmvc_day2/springmvc_day2.iml" filepath="$PROJECT_DIR$/../springmvc_day2/springmvc_day2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ssm/ssm.iml" filepath="$PROJECT_DIR$/../ssm/ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ssm_annotation/ssm_annotation.iml" filepath="$PROJECT_DIR$/../ssm_annotation/ssm_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ssm_springmvc/ssm_springmvc.iml" filepath="$PROJECT_DIR$/../ssm_springmvc/ssm_springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../student/student.iml" filepath="$PROJECT_DIR$/../student/student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../vue_day1/vue_day1.iml" filepath="$PROJECT_DIR$/../../vue_day1/vue_day1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vue_day2/vue_day2.iml" filepath="$PROJECT_DIR$/../vue_day2/vue_day2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vue_day2_springboot/vue_day2_springboot.iml" filepath="$PROJECT_DIR$/../vue_day2_springboot/vue_day2_springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vue_day3/vue_day3.iml" filepath="$PROJECT_DIR$/../vue_day3/vue_day3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vue_day4/vue_day4.iml" filepath="$PROJECT_DIR$/../vue_day4/vue_day4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../github_day1/.mvn/wrapper/wrapper.iml" filepath="$PROJECT_DIR$/../github_day1/.mvn/wrapper/wrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../yingx_wenzl/yingx_wenzl.iml" filepath="$PROJECT_DIR$/../yingx_wenzl/yingx_wenzl.iml" />
+    </modules>
+  </component>
+</project>

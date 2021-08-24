@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+
+<configuration>
+
+	<!-- 声明别名 -->
+	<typeAliases>
+		<!-- type：为那个类型起别名，包.类 alias：指定别名是谁 推荐 类名 1或类名首字母小写 -->
+		<typeAlias type="com.baizhi.entity.User" alias="User" />
+		<typeAlias type="com.baizhi.entity.Employee" alias="Employee" />
+
+	</typeAliases>
+	
+	
+	<!-- environments:用来配置数据库环境  数据库的环境可能有多个      default:用来决定哪个环境生效书写某个环境标签id-->
+	<environments default="dev">
+		<!-- 代表配置一个数据库的环境 -->
+		<environment id="dev">
+			<!-- transaction（事务） Manager（管理）：事务管理          type：属性用来事务管理类型        JDBC：固定写死，代表是永远是jdbc的事务管理方式-->
+			<transactionManager type="JDBC"/>
+			<!-- dataSource:(数据源)用来配置与数据库连接相关的配置    type:属性  用来指定数据源类型    POOLED：（池）使用连接池   UNPOOLED：（非池）不使用连接池 每次执行创建一个新的连接 -->
+			<dataSource type="POOLED">
+				<!-- 数据库连接driver  url  username  password -->
+				<property name="driver" value="com.mysql.jdbc.Driver"/>
+				<property name="url" value="jdbc:mysql://localhost:3306/ems?characterEncoding=UTF-8"/>
+				<property name="username" value="root"/>
+				<property name="password" value="root"/>
+			</dataSource>
+		</environment>
+	</environments>
+	
+	<!-- 注册mapper配置文件  配置文件路径写/  配置java类用 . -->
+	 <mappers>
+		<!-- 用户的配置文件 -->
+		<mapper resource="com/baizhi/mapper/UserDaoMapper.xml"/>
+		<mapper resource="com/baizhi/mapper/EmployeeDaoMapper.xml"/>
+	</mappers>
+</configuration>

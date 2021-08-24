@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ems_ssm:war">
+    <output-path>$PROJECT_DIR$/../ems_ssm/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ems_ssm</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ems_ssm.war">
+      <element id="artifact" artifact-name="ems_ssm:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="vue_day4:war exploded">
+    <output-path>$PROJECT_DIR$/../vue_day4/target/vue_day4</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>vue_day4</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="vue_day4" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../vue_day4/target/vue_day4/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="vue_day4/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/../../vue_day1/src/main/webapp/vue/03.vue中v-text、v-html指令使用.html" value="file://$PROJECT_DIR$/../../vue_day1/src/main/webapp/vue" />
+        <entry key="file://$PROJECT_DIR$/../../vue_day1/src/main/webapp/vue/06.v-on指令基本使用(二)之在函数中获取vue实例本身this.html" value="file://$PROJECT_DIR$/../../vue_day1/src/main/webapp/vue" />
+        <entry key="file://$PROJECT_DIR$/../../vue_day1/src/main/webapp/vue/备忘录案例.html" value="file://$PROJECT_DIR$/../../vue_day1/src/main/webapp/vue" />
+      </map>
+    </option>
+  </component>
+</project>

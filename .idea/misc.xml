@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../ems_pink/pom.xml" />
+        <option value="$PROJECT_DIR$/../ems_pink2/pom.xml" />
+        <option value="$PROJECT_DIR$/../springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/../bootstarp_day1/pom.xml" />
+        <option value="$PROJECT_DIR$/../bootstrap_day1/pom.xml" />
+        <option value="$PROJECT_DIR$/../ajax_day1/pom.xml" />
+        <option value="$PROJECT_DIR$/../ajax_day2/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_day1/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_day3/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/../ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_day6/pom.xml" />
+        <option value="$PROJECT_DIR$/../ssm_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/../springmvc_day1/pom.xml" />
+        <option value="$PROJECT_DIR$/../ssm_springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/../springmvc_day2/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot_day1/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot_day2/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot_day6/pom.xml" />
+        <option value="$PROJECT_DIR$/../newIDEA/pom.xml" />
+        <option value="$PROJECT_DIR$/../../vue_day1/pom.xml" />
+        <option value="$PROJECT_DIR$/../../pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_day5/pom.xml" />
+        <option value="$PROJECT_DIR$/../ems_ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/../ems_springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot_day3/pom.xml" />
+        <option value="$PROJECT_DIR$/../vue_day2_springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/../vue_day2/pom.xml" />
+        <option value="$PROJECT_DIR$/../vue_day3/pom.xml" />
+        <option value="$PROJECT_DIR$/../vue_day4/pom.xml" />
+        <option value="$PROJECT_DIR$/../student/pom.xml" />
+        <option value="$PROJECT_DIR$/../redis_day1/pom.xml" />
+        <option value="$PROJECT_DIR$/../yingx_wenzl/pom.xml" />
+        <option value="$PROJECT_DIR$/../github_day1/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

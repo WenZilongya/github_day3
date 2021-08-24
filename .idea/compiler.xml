@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring_day6" />
+        <module name="ajax_day1" />
+        <module name="ajax_day2" />
+        <module name="spring_day3" />
+        <module name="vue_day2_springboot" />
+        <module name="student" />
+        <module name="ssm_springmvc" />
+        <module name="spring_day5" />
+        <module name="spring_day1" />
+        <module name="ems_pink2" />
+        <module name="ssm" />
+        <module name="github_day1" />
+        <module name="springboot" />
+        <module name="ems_ssm" />
+        <module name="ems_springboot" />
+        <module name="springmvc" />
+        <module name="yingx_wenzl" />
+        <module name="ems_pink" />
+        <module name="newIDEA" />
+        <module name="springmvc_day2" />
+        <module name="redis_day1" />
+        <module name="vue_day1" />
+        <module name="vue_day2" />
+        <module name="springmvc_day1" />
+        <module name="spring_ssm" />
+        <module name="ssm_annotation" />
+        <module name="bootstrap_day1" />
+        <module name="springboot_day1" />
+        <module name="springboot_day2" />
+        <module name="springboot_day3" />
+        <module name="vue_day3" />
+        <module name="vue_day4" />
+        <module name="spring_mybatis" />
+        <module name="springboot_day6" />
+      </profile>
+      <profile name="Annotation profile for Unknown" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wrapper" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ajax_day1" target="1.7" />
+      <module name="ajax_day2" target="1.7" />
+      <module name="ajax_day3" target="1.7" />
+      <module name="bootstrap_day1" target="1.7" />
+      <module name="ems_pink" target="1.7" />
+      <module name="ems_pink2" target="1.7" />
+      <module name="ems_springboot" target="1.7" />
+      <module name="ems_ssm" target="1.7" />
+      <module name="github_day1" target="1.8" />
+      <module name="newIDEA" target="1.8" />
+      <module name="redis_day1" target="1.7" />
+      <module name="redis_day2" target="1.8" />
+      <module name="spring_day1" target="1.8" />
+      <module name="spring_day3" target="1.7" />
+      <module name="spring_day5" target="1.7" />
+      <module name="spring_day6" target="1.7" />
+      <module name="spring_mybatis" target="1.7" />
+      <module name="spring_ssm" target="1.7" />
+      <module name="springboot" target="1.7" />
+      <module name="springboot_day1" target="1.7" />
+      <module name="springboot_day2" target="1.7" />
+      <module name="springboot_day3" target="1.8" />
+      <module name="springboot_day6" target="1.8" />
+      <module name="springmvc" target="1.7" />
+      <module name="springmvc_day1" target="1.7" />
+      <module name="springmvc_day2" target="1.7" />
+      <module name="ssm" target="1.7" />
+      <module name="ssm_annotation" target="1.7" />
+      <module name="ssm_springmvc" target="1.7" />
+      <module name="student" target="1.8" />
+      <module name="vue_day1" target="1.7" />
+      <module name="vue_day2" target="1.7" />
+      <module name="vue_day2_springboot" target="1.8" />
+      <module name="vue_day3" target="1.7" />
+      <module name="vue_day4" target="1.7" />
+      <module name="workspace" target="1.7" />
+      <module name="wrapper" target="1.5" />
+      <module name="yingx_wenzl" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ems_springboot" options="-parameters" />
+      <module name="github_day1" options="-parameters" />
+      <module name="redis_day2" options="-parameters" />
+      <module name="springboot" options="-parameters" />
+      <module name="springboot_day1" options="-parameters" />
+      <module name="springboot_day2" options="-parameters" />
+      <module name="springboot_day3" options="-parameters" />
+      <module name="springboot_day6" options="-parameters" />
+      <module name="student" options="-parameters" />
+      <module name="vue_day2_springboot" options="-parameters" />
+      <module name="yingx_wenzl" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop.xsd
+                           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!--1.配置数据源-->
+    <bean class="com.alibaba.druid.pool.DruidDataSource" id="dataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/ems"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+    </bean>
+
+    <!--2.创建SqlSessionFactory-->
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean" id="sqlSessionFactory">
+        <!--①注入数据源-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--②配置Mapper文件-->
+        <property name="mapperLocations" value="classpath:com/baizhi/mapper/*.xml"/>
+        <!--③给实体类起别名-->
+        <property name="typeAliasesPackage" value="com.baizhi.entity"/>
+    </bean>
+    <!--3.创建DAO-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--①注入SqlSessionFactory-->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <!--②配置DAO所在的包-->
+        <property name="basePackage" value="com.baizhi.dao"/>
+    </bean>
+    <!--4.创建Service-->
+    <bean class="com.baizhi.service.UserServiceImpl" id="userService">
+        <!--注入DAO-->
+        <property name="userDAO" ref="userDAO"/>
+    </bean>
+    <!--5.创建事务管理器-->
+    <bean class="org.springframework.jdbc.datasource.DataSourceTransactionManager" id="transactionManager">
+        <!--注入数据源-->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <!--6.配置事务环绕通知-->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="selectAll" propagation="SUPPORTS"/>
+            <tx:method name="addOne"/>
+            <tx:method name="updateOne"/>
+            <tx:method name="deleteOne"/>
+        </tx:attributes>
+    </tx:advice>
+    <!--7.配置事务切面-->
+    <aop:config>
+        <!--①配置切入点表达式-->
+        <aop:pointcut id="pc" expression="execution( * com.baizhi.service.*.*(..))"/>
+        <!--②组装切面-->
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pc"/>
+    </aop:config>
+</beans>

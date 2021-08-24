@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="newIDEA:war">
+    <output-path>$PROJECT_DIR$/../newIDEA/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>newIDEA</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="newIDEA.war">
+      <element id="artifact" artifact-name="newIDEA:war exploded" />
+    </root>
+  </artifact>
+</component>
